@@ -11,7 +11,7 @@ import org.springframework.test.context.support.GenericXmlContextLoader;
  */
 public class SpringContextLoader implements ContextLoader {
 	
-	private final String[] defaultLocations = { "/applicationContext.xml" };
+	private final String[] defaultLocations = { "/testContext.xml" };
 	private final GenericXmlContextLoader loader = new GenericXmlContextLoader();
 
 	public String[] processLocations(Class<?> clazz, String... locations) {
