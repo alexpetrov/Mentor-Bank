@@ -20,5 +20,6 @@
 	<classpathentry kind="lib" path="lib/spring/org.springframework.test-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring/org.springframework.transaction-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/apache-commons/commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/mockito/mockito-all-1.8.5.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
