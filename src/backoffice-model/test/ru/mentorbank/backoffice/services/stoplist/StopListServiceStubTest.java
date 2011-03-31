@@ -24,7 +24,7 @@ public class StopListServiceStubTest extends AbstractSpringTest{
 	
 	@Test
 	public void getJuridicalStopListInfo_OK(){
-		//setup SUT
+		// setup SUT
 		stopListRequest.setInn(StopListServiceStub.INN_FOR_OK_STATUS);
 		// Call SUT
 		StopListInfo info = stopListService.getJuridicalStopListInfo(stopListRequest);

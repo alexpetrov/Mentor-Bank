@@ -6,13 +6,13 @@ public class Account implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
-	private long accountNumber;
+	private String accountNumber;
 
-	public long getAccountNumber() {
+	public String getAccountNumber() {
 		return accountNumber;
 	}
 
-	public void setAccountNumber(long accountNumber) {
+	public void setAccountNumber(String accountNumber) {
 		this.accountNumber = accountNumber;
 	}
 }

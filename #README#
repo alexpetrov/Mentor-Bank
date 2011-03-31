@@ -1,0 +1,5 @@
+This is a training project of "Java-technologies and practices of creation applications in multi-level architecture" course.
+The main goals of this project are folowing:
+1. Show typical bank applications architecture
+2. Show realization of typical business process of transferring money from one account to another
+3. Show how to create applications using Test Driven Development practice
