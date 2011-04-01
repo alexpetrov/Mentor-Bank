@@ -11,7 +11,6 @@
 
 	<bean id="operationDao" class="ru.mentorbank.backoffice.dao.stub.OperationDaoStub">
 	</bean>
-	
 	<bean id="moneyTransferService" class="ru.mentorbank.backoffice.services.moneytransfer.MoneyTransferServiceBean">
 		<property name="accountService" ref="accountService"></property>
 		<property name="stopListService" ref="stopListService"></property>
