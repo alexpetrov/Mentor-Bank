@@ -3,6 +3,7 @@ package ru.mentorbank.backoffice.services.moneytransfer;
 import static org.junit.Assert.fail;
 
 import org.junit.Before;
+import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import ru.mentorbank.backoffice.services.moneytransfer.exceptions.TransferException;
@@ -17,7 +18,7 @@ public class MoneyTransferServiceTest extends AbstractSpringTest {
 	public void setUp() {
 	}
 
-	// @Test
+	@Test
 	public void transfer() throws TransferException {
 		fail("not implemented yet");
 		// TODO: Необходимо протестировать, что для хорошего перевода всё
