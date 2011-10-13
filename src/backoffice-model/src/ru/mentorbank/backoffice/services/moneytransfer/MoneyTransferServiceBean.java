@@ -12,7 +12,7 @@ import ru.mentorbank.backoffice.services.accounts.AccountService;
 import ru.mentorbank.backoffice.services.moneytransfer.exceptions.TransferException;
 import ru.mentorbank.backoffice.services.stoplist.StopListService;
 
-public class MoneyTransferServiceBean implements MoneyTransferSerice {
+public class MoneyTransferServiceBean implements MoneyTransferService {
 
 	public static final String LOW_BALANCE_ERROR_MESSAGE = "Can not transfer money, because of low balance in the source account";
 	private AccountService accountService;
