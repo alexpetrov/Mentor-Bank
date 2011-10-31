@@ -11,12 +11,13 @@
 
 	<bean id="operationDao" class="ru.mentorbank.backoffice.dao.stub.OperationDaoStub">
 	</bean>
+	
+	<bean id="accountService" class="ru.mentorbank.backoffice.services.accounts.AccountServiceBean">
+	</bean>
+	
 	<bean id="moneyTransferService" class="ru.mentorbank.backoffice.services.moneytransfer.MoneyTransferServiceBean">
 		<property name="accountService" ref="accountService"></property>
 		<property name="stopListService" ref="stopListService"></property>
 		<property name="operationDao" ref="operationDao"></property>
-	</bean>
-	
-	<bean id="accountService" class="ru.mentorbank.backoffice.services.accounts.AccountServiceBean">
 	</bean>
 </beans>

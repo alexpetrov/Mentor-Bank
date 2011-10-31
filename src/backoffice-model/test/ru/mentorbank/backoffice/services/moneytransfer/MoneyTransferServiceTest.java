@@ -12,7 +12,7 @@ import ru.mentorbank.backoffice.test.AbstractSpringTest;
 public class MoneyTransferServiceTest extends AbstractSpringTest {
 
 	@Autowired
-	private MoneyTransferServiceBean moneyTransferService;
+	private MoneyTransferService moneyTransferService;
 
 	@Before
 	public void setUp() {

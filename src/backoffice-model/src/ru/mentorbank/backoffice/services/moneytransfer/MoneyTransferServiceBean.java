@@ -104,14 +104,13 @@ public class MoneyTransferServiceBean implements MoneyTransferService {
 		}
 
 		private void verifySrcBalance() throws TransferException {
-			if (!accountService.verifyBalance(request.getDstAccount()))
+			if (!accountService.verifyBalance(request.getSrcAccount()))
 				throw new TransferException(LOW_BALANCE_ERROR_MESSAGE);
 		}
 	}
 
 	public void setAccountService(AccountService accountService) {
 		this.accountService = accountService;
-
 	}
 
 	public void setStopListService(StopListService stopListService) {
